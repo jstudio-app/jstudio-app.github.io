@@ -71,3 +71,12 @@ nav .nav-cta span{margin-left:8px}
 .duo-canvas.is-ready .duo-fallback{display:none}
 @media(max-width:760px){.project-featured .passfolio.hero-showcase{height:350px;min-height:0}.hero-device-stage{height:300px;margin-top:42px}}
 @media(max-width:370px){.hero-device-stage{height:290px}}
+
+/* Local vector icons cannot be substituted with platform emoji glyphs. */
+.icon{display:inline-block;width:1em;height:1em;flex-shrink:0;vertical-align:-.16em;stroke:currentColor;fill:none}
+a>.icon{margin-left:3px}.text-link .icon,.footer-links .icon{font-size:16px}
+.primary-link .icon,.button .icon{width:21px;height:21px;vertical-align:middle}
+.nav-cta .icon{width:18px;height:18px;vertical-align:middle}
+.hero-bottom .icon{width:12px;height:12px;vertical-align:-2px}
+.decor-star{display:inline-block;width:1em;height:1em;vertical-align:middle;overflow:visible}
+.brand-icon span .decor-star{width:17px;height:17px;display:block}
